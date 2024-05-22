@@ -21,12 +21,12 @@ There will also be an interactive google map showing lighthouse location by coor
 
 A live Demo of the App can be viewed here:
 
-Glitch Link:
+Glitch Link: Glitch: https://irish-lighthouses-v2.glitch.me
 
 Technology Stack
 Backend: Node.js, Hapi.js
 Database: Mongo (Cloud Atlas) (Can switch to Mem or json db)
-Hosting: Heroku & Glitch
+Hosting: Glitch
 Templating: Handlebars
 API Validation: Joi
 API Documentation: OpenAI / Swagger

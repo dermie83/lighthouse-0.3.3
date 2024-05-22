@@ -1,10 +1,10 @@
 # Lighthouse Changelog
 
-## verson 0.4.4
+## verson 0.6.0
 - use googlemaps api to show lighthouse coordinates
 - deploy to Glitch
 
-## verson 0.4.3
+## verson 0.5.0
 - deployed to Glitch
 - create live weather api view for lighthouse
 - use a simple line graph to show weather trends
