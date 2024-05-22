@@ -1,5 +1,20 @@
 # Lighthouse Changelog
 
+## verson 0.4.4
+- use googlemaps api to show lighthouse coordinates
+- deploy to Glitch
+
+## verson 0.4.3
+- deployed to Glitch
+- create live weather api view for lighthouse
+- use a simple line graph to show weather trends
+- create utlis folder to convert weather api readings for friendly user view
+
+## verson 0.4.2
+- move mongodb to mongodb cloud atlas to enable access to database remotely
+- group edit function enabled
+- introduce weather api from openeather to retrieve live weather updates
+
 ## version 0.4.1
 - introduce image upload function
 - created a cloudinary account to store and upload images
