@@ -1,0 +1,50 @@
+{
+  "name": "lighthouse",
+  "version": "0.2.0",
+  "description": "Irish Lighthouses: a Hapi/node application for managing Groups of lighthouses",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js --ignore 'src/models/json/*.json'",
+    "lint": "eslint . --ext .js",
+    "test": "mocha --ui tdd test/**/*.js -exit",
+    "testmodels": "mocha --ui tdd test/models/**/*.js -exit",
+    "testapi": "mocha --ui tdd test/api/**/*.js"
+  },
+  "author": "WIT",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.6.7",
+    "chai": "^5.0.3",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.2"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/cookie": "^12.0.1",
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.3",
+    "cloudinary": "^2.1.0",
+    "dotenv": "^16.4.1",
+    "handlebars": "^4.7.8",
+    "hapi-auth-jwt2": "^10.5.1",
+    "hapi-swagger": "^17.2.1",
+    "joi": "^17.12.1",
+    "jsonwebtoken": "^9.0.2",
+    "lowdb": "^7.0.1",
+    "mais-mongoose-seeder": "^1.0.7",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

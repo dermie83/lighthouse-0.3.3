@@ -1,0 +1,32 @@
+<form class="box" action="/group/{{group._id}}/updatelighthouse/{{lighthouse._id}}" method="POST">
+  <label>Update Lighthouse Features:</label>
+  <div class="field is-horizontal">
+    <div class="field-body">
+      <div class="field">
+        <input id="title" name="title" class="input" type="text" placeholder="Enter Title" value="{{lighthouse.title}}">
+      </div>
+      <div class="field">
+        <input id="towerHeight" class="input" name="towerHeight" type="double" placeholder="Enter Tower Height" value="{{lighthouse.towerHeight}}">
+      </div>
+      <div class="field">
+        <input id="lightHeight" class="input" name="lightHeight" type="double" placeholder="Enter Light Height" value="{{lighthouse.lightHeight}}">
+      </div>
+      <div class="field">
+        <input id="character" class="input" name="character" type="text" placeholder="Enter Character" value="{{lighthouse.character}}">
+      </div>
+      <div class="field">
+        <input id="daymark" class="input" name="daymark" type="text" placeholder="Enter Daymark" value="{{lighthouse.daymark}}">
+      </div>
+      <div class="field">
+        <input id="range" class="input" name="range" type="double" placeholder="Enter Range" value="{{lighthouse.range}}">
+      </div>
+      <div class="field">
+        <input id="latitude" class="input" name="latitude" type="double" placeholder="52.1624" value="{{lighthouse.latitude}}">
+      </div>
+      <div class="field">
+        <input id="longitude" class="input" name="longitude" type="double" placeholder="-7.1524" value="{{lighthouse.longitude}}">
+      </div>
+    </div>
+  </div>
+  <button class="button is-primary">Update Lighthouse</button>
+</form>

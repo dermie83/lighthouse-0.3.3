@@ -1,0 +1,46 @@
+{{> menu active="api"}}
+
+<section class="box has-text-centered">
+  <h3 class="is-3 title">
+    Latest Weather Reading From OpenWeather API
+  </h3>
+  <div class="section">
+   {{> api-dynamic-weather}}
+   {{> api-weather}}
+  </div>
+      <div class="box" id="chart">
+      </div>
+      <div>
+      <div>
+        <script>
+          const data = {
+            labels: [
+              {{#each report.trendLabels}}
+                "{{this}}",
+              {{/each}}
+            ],
+            datasets: [
+              {
+                name: "Temperature", type: "line",
+                values: [
+                  {{#each report.tempTrend}}
+                    {{this}},
+                  {{/each}}
+                ]
+              }
+            ]
+          }
+
+          const chart = new frappe.Chart("#chart", {
+            title: "Temperature Trend From API Reading",
+            data: data,
+            type: 'line',
+            height: 250,
+          })
+        </script>
+         <div class="section">
+          {{> map  }}
+         </div>
+      </div>
+  </section>
+</section>

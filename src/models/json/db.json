@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "firstName": "Maggie",
+      "lastName": "Simpson",
+      "email": "maggie@simpson.com",
+      "password": "secret",
+      "_id": "2c9f8b20-83b4-4751-9ae8-a14da591b2cc"
+    }
+  ],
+  "groups": [],
+  "lighthouses": [
+    {
+      "title": "Hook Head",
+      "towerHeight": 35,
+      "lightHeight": 46,
+      "character": "Fl(3) W3s",
+      "daymark": "Painted Black and White",
+      "range": 23,
+      "latitude": 1,
+      "longitude": -1,
+      "image": "",
+      "_id": "3df14da2-2cac-47ef-9f8c-ea315966f7a7",
+      "groupid": "7606d62d-5ffd-45e5-8434-6fc4e7fcc42f"
+    },
+    {
+      "title": "Skelligs Rock",
+      "towerHeight": 12,
+      "lightHeight": 53.3,
+      "character": "Fl(3) 15s",
+      "daymark": "Painted White",
+      "range": 12,
+      "latitude": 2,
+      "longitude": -2,
+      "image": "",
+      "_id": "5e1603eb-71a8-475b-a6b6-a3dd6ee85393",
+      "groupid": "7606d62d-5ffd-45e5-8434-6fc4e7fcc42f"
+    },
+    {
+      "title": "Galley Head",
+      "towerHeight": 21,
+      "lightHeight": 53,
+      "character": "Fl(5) W20s",
+      "daymark": "Painted White",
+      "range": 23,
+      "latitude": 3,
+      "longitude": -3,
+      "image": "",
+      "_id": "66045214-91e1-4d1c-acc2-e92821ef37e2",
+      "groupid": "7606d62d-5ffd-45e5-8434-6fc4e7fcc42f"
+    }
+  ]
+}
